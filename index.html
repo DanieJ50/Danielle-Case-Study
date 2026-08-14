@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Danielle Julian — multidisciplinary graphic design, UX/UI, branding, web design, advertising, interaction design, and visual storytelling portfolio.">
+  <meta name="theme-color" content="#fff7ef">
+  <title>Danielle Julian — Playful Systems, Purposeful Stories</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to portfolio</a>
+  <div class="progress"><span id="progressBar"></span></div>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+  <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div>
+  <canvas id="sparkCanvas" aria-hidden="true"></canvas>
+
+  <header class="topbar" id="top">
+    <a class="brand magnetic" href="#top" aria-label="Danielle Julian home">
+      <span class="brand-seed" aria-hidden="true">✦</span>
+      <span>DANIELLE JULIAN</span>
+    </a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#journey">Journey</a>
+      <a href="#featured">Case Studies</a>
+      <a href="#gallery">Work</a>
+      <a href="#archive">Archive</a>
+      <a class="nav-cta magnetic" href="#contact">Connect</a>
+    </nav>
+    <button class="menu-button" id="menuButton" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav"><span></span><span></span></button>
+    <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+      <a href="#journey">Journey</a><a href="#featured">Case Studies</a><a href="#gallery">Work</a><a href="#archive">Archive</a><a href="#contact">Connect</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="hero-noise" aria-hidden="true"></div>
+      <div class="orb orb-one" data-float="0.7"></div><div class="orb orb-two" data-float="-0.5"></div><div class="orb orb-three" data-float="0.35"></div>
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="kicker"><span class="live-dot"></span> COURSEWORK COMPLETE • AVAILABLE NOW</p>
+          <h1 id="heroTitle"><span class="line">PLAYFUL</span><span class="line accent">SYSTEMS.</span><span class="line">PURPOSEFUL</span><span class="line accent alt">STORIES.</span></h1>
+          <p class="hero-text">I’m Danielle Julian — a multidisciplinary designer blending graphic design, UX/UI, branding, front-end web, advertising, interaction design, and visual storytelling into experiences that feel clear, memorable, and alive.</p>
+          <div class="hero-actions"><a class="button primary magnetic" href="#featured">Explore case studies <span>↘</span></a><a class="button ghost magnetic" href="#gallery">Enter the work wall <span>✦</span></a></div>
+          <div class="micro-badges"><span>Google UX Design Certificate</span><span>UTD Graphic Design</span><span>Commencement • Dec 2026</span></div>
+        </div>
+
+        <div class="hero-collage reveal" id="heroCollage" aria-label="Animated preview of Danielle's work">
+          <button class="float-card card-a tilt" data-project="savesip" type="button"><img src="assets/images/current/image23.jpg" alt="SaveSip UX screens"><span>UX/UI</span></button>
+          <button class="float-card card-b tilt" data-project="selena" type="button"><img src="assets/images/new/selena-gomez-poster.jpg" alt="Selena Gomez typography poster"><span>TYPE</span></button>
+          <button class="float-card card-c tilt" data-project="airbnb" type="button"><img src="assets/images/new/airbnb-composite.jpg" alt="Airbnb photo composite"><span>COMPOSITE</span></button>
+          <button class="float-card card-d tilt" data-project="mcdonalds" type="button"><img src="assets/images/new/mcdonalds-ad.jpg" alt="McDonald's food advertisement"><span>AD</span></button>
+          <div class="orbit-label orbit-label-a">BRAND ✦ UX ✦ WEB</div>
+          <div class="orbit-label orbit-label-b">MAKE IT MOVE ✦</div>
+        </div>
+      </div>
+      <div class="scroll-cue" aria-hidden="true"><span>SCROLL TO EXPLORE</span><i></i></div>
+    </section>
+
+    <section class="ticker" aria-label="Design disciplines"><div class="ticker-track"><span>GRAPHIC DESIGN ✦ UX/UI ✦ BRANDING ✦ WEB DESIGN ✦ ADVERTISING ✦ INTERACTION DESIGN ✦ PHOTO COMPOSITING ✦ CREATIVE DIRECTION ✦</span><span aria-hidden="true">GRAPHIC DESIGN ✦ UX/UI ✦ BRANDING ✦ WEB DESIGN ✦ ADVERTISING ✦ INTERACTION DESIGN ✦ PHOTO COMPOSITING ✦ CREATIVE DIRECTION ✦</span></div></section>
+
+    <section class="section journey" id="journey" aria-labelledby="journeyTitle">
+      <div class="section-head reveal"><p class="section-index">01 / JOURNEY</p><h2 id="journeyTitle">A PORTFOLIO THAT <em>GREW UP</em> WITH ME.</h2><p>From self-taught visual experiments to complete products, coded experiences, research-driven interfaces, and campaign systems.</p></div>
+      <div class="journey-rail">
+        <article class="year-card reveal tilt"><span class="year">2021</span><div><h3>START WITH CURIOSITY.</h3><p>Early logo studies, photo composites, social graphics, food ads, typography, and visual experiments built the foundation.</p></div><div class="year-images"><img src="assets/images/new/snickers-composite.jpg" alt="Snickers composite"><img src="assets/images/new/degree-ad.jpg" alt="Degree product ad"></div></article>
+        <article class="year-card reveal tilt"><span class="year">2023–24</span><div><h3>MAKE THE VISUAL VOICE LOUDER.</h3><p>Poster systems, advertising, branded compositions, photo manipulation, and web concepts became more intentional and controlled.</p></div><div class="year-images"><img src="assets/images/new/fein-travis-scott.jpg" alt="Travis Scott poster"><img src="assets/images/new/selena-gomez-poster.jpg" alt="Selena Gomez poster"></div></article>
+        <article class="year-card reveal tilt"><span class="year">2025–26</span><div><h3>MOVE FROM GRAPHICS TO EXPERIENCES.</h3><p>UX/UI, research, interaction states, front-end coding, branded systems, and product storytelling expanded the practice beyond static visuals.</p></div><div class="year-images"><img src="assets/images/current/image19.jpg" alt="UX persona work"><img src="assets/images/current/image10.jpg" alt="High-fidelity interface work"></div></article>
+        <article class="year-card reveal tilt now-card"><span class="year">NOW</span><div><h3>READY FOR THE NEXT BRIEF.</h3><p>Coursework is complete, commencement is in December 2026, and I’m available for professional opportunities now.</p><a class="inline-arrow" href="#contact">LET'S CONNECT →</a></div></article>
+      </div>
+    </section>
+
+    <section class="section featured" id="featured" aria-labelledby="featuredTitle">
+      <div class="section-head reveal"><p class="section-index">02 / FEATURED CASE STUDIES</p><h2 id="featuredTitle">NOT JUST THE FINAL IMAGE. <em>THE THINKING BEHIND IT.</em></h2></div>
+
+      <article class="case case-left reveal">
+        <div class="case-visual stack-scene">
+          <img class="scene-main tilt" src="assets/images/current/image23.jpg" alt="SaveSip high fidelity screens">
+          <img class="scene-float float-one tilt" src="assets/images/current/image2.jpg" alt="SaveSip mascot concepts">
+          <span class="scene-sticker">CASE 01 • UX/UI</span>
+        </div>
+        <div class="case-copy"><p class="eyebrow">CAPSTONE • UX/UI • BRANDING</p><h3>SAVESIP</h3><p>A gamified drink-spending tracker designed to make everyday financial awareness feel warmer, faster, and more motivating.</p><div class="metrics"><span><b>01</b> Problem framing</span><span><b>02</b> Wireframes + UI</span><span><b>03</b> Brand evolution</span><span><b>04</b> Gamification</span></div><button class="text-link" data-project="savesip" type="button">OPEN CASE NOTES ↗</button></div>
+      </article>
+
+      <article class="case case-right reveal">
+        <div class="case-copy"><p class="eyebrow">UX/UI • PERSONALIZATION • WEB</p><h3>COZY RECIPE BUILDER</h3><p>A guided recipe-building experience that turns cravings into personalized recipes using flavor, texture, ingredients, swaps, and cooking method.</p><div class="metrics"><span><b>01</b> Guided choices</span><span><b>02</b> Smart swaps</span><span><b>03</b> Saved recipes</span><span><b>04</b> Friendly UI logic</span></div><button class="text-link" data-project="recipe" type="button">OPEN CASE NOTES ↗</button></div>
+        <div class="case-visual stack-scene alt-scene"><img class="scene-main tilt" src="assets/images/current/image10.jpg" alt="Recipe builder interface screens"><img class="scene-float float-two tilt" src="assets/images/current/image20.jpeg" alt="Recipe builder interface planning"><span class="scene-sticker purple">CASE 02 • PRODUCT</span></div>
+      </article>
+    </section>
+
+    <section class="section gallery" id="gallery" aria-labelledby="galleryTitle">
+      <div class="section-head reveal"><p class="section-index">03 / THE WORK WALL</p><h2 id="galleryTitle">CLICK. FILTER. <em>WANDER.</em></h2><p>A living wall of posters, campaigns, composites, brand experiments, product work, and web design — including newly added projects.</p></div>
+      <div class="filter-bar reveal" role="group" aria-label="Filter portfolio"><button class="filter active" data-filter="all">ALL</button><button class="filter" data-filter="campaign">CAMPAIGN</button><button class="filter" data-filter="poster">POSTERS</button><button class="filter" data-filter="composite">COMPOSITES</button><button class="filter" data-filter="web">WEB + UX</button></div>
+
+      <div class="masonry" id="projectGrid">
+        <button class="work-card wide reveal tilt" data-category="poster" data-project="fein" type="button"><img src="assets/images/new/fein-travis-scott.jpg" alt="FE!N Travis Scott poster"><span class="work-meta"><b>FE!N</b><small>Poster • Type • Music</small></span></button>
+        <button class="work-card tall reveal tilt" data-category="composite" data-project="airbnb" type="button"><img src="assets/images/new/airbnb-composite.jpg" alt="Airbnb pull-open composite"><span class="work-meta"><b>Airbnb Escape</b><small>Composite • Ad concept</small></span></button>
+        <button class="work-card reveal tilt" data-category="campaign" data-project="iguard" type="button"><img src="assets/images/new/iguard-ad.jpg" alt="iGuard hand sanitizer ad"><span class="work-meta"><b>iGuard</b><small>Product advertising</small></span></button>
+        <button class="work-card reveal tilt" data-category="composite" data-project="bluemoon" type="button"><img src="assets/images/new/blue-moon.jpg" alt="Blue moon surreal composite"><span class="work-meta"><b>Blue Moon</b><small>Surreal composite</small></span></button>
+        <button class="work-card tall reveal tilt" data-category="poster" data-project="selena" type="button"><img src="assets/images/new/selena-gomez-poster.jpg" alt="Selena Gomez typography poster"><span class="work-meta"><b>Selena Gomez</b><small>Typography poster</small></span></button>
+        <button class="work-card reveal tilt" data-category="poster" data-project="march" type="button"><img src="assets/images/new/march-madness-poster.jpg" alt="March Madness basketball poster"><span class="work-meta"><b>March Madness</b><small>Sports poster</small></span></button>
+        <button class="work-card wide reveal tilt" data-category="composite" data-project="snickers" type="button"><img src="assets/images/new/snickers-composite.jpg" alt="Snickers chocolate composite"><span class="work-meta"><b>Snickers Orbit</b><small>Photo manipulation</small></span></button>
+        <button class="work-card reveal tilt" data-category="campaign" data-project="degree" type="button"><img src="assets/images/new/degree-ad.jpg" alt="Degree deodorant advertising composite"><span class="work-meta"><b>Degree Cool Rush</b><small>Product advertising</small></span></button>
+        <button class="work-card tall reveal tilt" data-category="campaign" data-project="mcdonalds" type="button"><img src="assets/images/new/mcdonalds-ad.jpg" alt="McDonald's burger advertisement"><span class="work-meta"><b>McDonald's</b><small>Food advertising</small></span></button>
+        <button class="work-card reveal tilt" data-category="composite" data-project="coffee" type="button"><img src="assets/images/new/coffee-popout.jpg" alt="Coffee social media pop-out composite"><span class="work-meta"><b>Coffee Pop-Out</b><small>Social composite</small></span></button>
+
+        <button class="work-card reveal tilt" data-category="campaign" data-project="burger" type="button"><img src="assets/images/current/image5.jpg" alt="Burger advertising poster"><span class="work-meta"><b>Burger Poster</b><small>Food advertising</small></span></button>
+        <button class="work-card wide reveal tilt" data-category="poster" data-project="summer" type="button"><img src="assets/images/current/image13.jpg" alt="Summer Alt Sounds poster"><span class="work-meta"><b>Summer Alt Sounds</b><small>Experimental typography</small></span></button>
+        <button class="work-card tall reveal tilt" data-category="composite" data-project="underwater" type="button"><img src="assets/images/current/image14.jpg" alt="Underwater composite"><span class="work-meta"><b>Underwater</b><small>Photo manipulation</small></span></button>
+        <button class="work-card reveal tilt" data-category="composite" data-project="double" type="button"><img src="assets/images/current/image9.jpg" alt="Double exposure portrait"><span class="work-meta"><b>Double Exposure</b><small>Digital art</small></span></button>
+        <button class="work-card reveal tilt" data-category="web" data-project="cookies" type="button"><img src="assets/images/current/image3.jpg" alt="Cookie website"><span class="work-meta"><b>Cookie Website</b><small>Web design</small></span></button>
+        <button class="work-card reveal tilt" data-category="campaign" data-project="water" type="button"><img src="assets/images/current/image12.jpg" alt="Water educational graphic"><span class="work-meta"><b>Water Graphic</b><small>Information design</small></span></button>
+      </div>
+    </section>
+
+    <section class="section lab" id="lab" aria-labelledby="labTitle">
+      <div class="section-head reveal"><p class="section-index">04 / INTERACTION LAB</p><h2 id="labTitle">WHERE THE WORK <em>STARTS MOVING.</em></h2></div>
+      <div class="lab-scroll">
+        <article class="lab-card reveal"><span>UX RESEARCH</span><h3>SMARTCART</h3><p>Shopping-list research around repeat buys, functional customization, user-controlled suggestions, and lower-friction grocery planning.</p></article>
+        <article class="lab-card reveal"><span>IOT + PUBLIC UX</span><h3>CROSSWALKS THAT EXPLAIN THEMSELVES</h3><p>A smart-city pedestrian interface built around clear state cues, accessibility, fallback behavior, and confidence under time pressure.</p></article>
+        <article class="lab-card reveal"><span>WEB + GAMIFICATION</span><h3>HISTORY BATTLE ACADEMY</h3><p>A coded study experience with question banks, modes, scoring, progress, explanations, and a final matching challenge.</p></article>
+        <article class="lab-card reveal"><span>CREATIVE CODE</span><h3>RECIPE BATTLE + QUILT</h3><p>Interactive recipe puzzles using drag-and-drop, custom selections, dynamic poem building, progress feedback, and playful personalization.</p></article>
+        <article class="lab-card reveal"><span>EMERGING MEDIA</span><h3>MEMORY + TIME</h3><p>Augmented-reality storytelling combining original trigger imagery, motion, sound, and layered depth.</p></article>
+      </div>
+    </section>
+
+    <section class="section archive" id="archive" aria-labelledby="archiveTitle">
+      <div class="section-head reveal"><p class="section-index">05 / 2021–2024 ARCHIVE</p><h2 id="archiveTitle">THE EARLY WORK STILL <em>MATTERS.</em></h2><p>Not hidden. Not erased. The archive shows the distance traveled — from early self-taught experiments to the current multidisciplinary portfolio.</p></div>
+      <div class="archive-strip" id="archiveStrip" tabindex="0" aria-label="Scrollable early portfolio pages">
+        <figure><img src="assets/images/archive/archive-1.jpg" alt="2021-2024 portfolio cover"></figure>
+        <figure><img src="assets/images/archive/archive-2.jpg" alt="Early portfolio about page"></figure>
+        <figure><img src="assets/images/archive/archive-3.jpg" alt="Early work samples"></figure>
+        <figure><img src="assets/images/archive/archive-4.jpg" alt="Early advertising work"></figure>
+        <figure><img src="assets/images/archive/archive-5.jpg" alt="Early illustration and composites"></figure>
+        <figure><img src="assets/images/archive/archive-6.jpg" alt="Early logo and image manipulation work"></figure>
+        <figure><img src="assets/images/archive/archive-7.jpg" alt="Early design samples"></figure>
+        <figure><img src="assets/images/archive/archive-8.jpg" alt="Early advertising samples"></figure>
+        <figure><img src="assets/images/archive/archive-9.jpg" alt="Early web design samples"></figure>
+      </div>
+    </section>
+
+    <section class="section skills" aria-labelledby="skillsTitle">
+      <div class="section-head reveal"><p class="section-index">06 / TOOLKIT</p><h2 id="skillsTitle">VISUAL INSTINCT + <em>SYSTEMS THINKING.</em></h2></div>
+      <div class="skill-cloud reveal" id="skillCloud"><span>GRAPHIC DESIGN</span><span>UX/UI</span><span>BRANDING</span><span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>FIGMA</span><span>PHOTOSHOP</span><span>ILLUSTRATOR</span><span>LIGHTROOM</span><span>CANVA</span><span>GITHUB</span><span>ARTIVIVE</span><span>WIREFRAMING</span><span>UX RESEARCH</span><span>PHOTO COMPOSITING</span><span>TYPOGRAPHY</span><span>CAMPAIGN DESIGN</span><span>INTERACTION DESIGN</span><span>VISUAL STORYTELLING</span></div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contactTitle">
+      <div class="contact-orb one" aria-hidden="true"></div><div class="contact-orb two" aria-hidden="true"></div>
+      <p class="section-index reveal">07 / NEXT</p><h2 id="contactTitle" class="reveal">HAVE A BRIEF?<br><em>LET'S MAKE IT MEMORABLE.</em></h2><p class="reveal">Graphic design • UX/UI • branding • web • marketing design • interaction design</p>
+      <div class="contact-actions reveal"><a class="button primary magnetic" href="https://www.linkedin.com/in/danielle-julian-55664a25b" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a class="button ghost magnetic" href="#top">Back to top ↑</a></div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 DANIELLE JULIAN</span><span>DESIGNED AS A LIVING CASE STUDY ✦</span></footer>
+
+  <dialog class="project-dialog" id="projectDialog">
+    <button class="dialog-close" id="dialogClose" type="button" aria-label="Close project">×</button>
+    <div class="dialog-grid"><div class="dialog-media"><img id="dialogImage" alt=""></div><div class="dialog-copy"><p id="dialogMeta" class="eyebrow"></p><h2 id="dialogTitle"></h2><p id="dialogText"></p><div id="dialogTags" class="dialog-tags"></div></div></div>
+  </dialog>
+</body>
+</html>
